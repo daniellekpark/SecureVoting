@@ -52,8 +52,8 @@ while True:
 
   dt_string = now.strftime("[%d/%m/%Y %H:%M:%S]")
   print("date and time =", dt_string)	
-  print("you voted for ", count1)
-  print("you voted for ", count2)
+  print("Total votes for candidate 1:  ", count1)
+  print("Total votes for candidate 2: ", count2)
   f = open("election.txt", "a")
   f.write('\n')
   f.write(dt_string)
